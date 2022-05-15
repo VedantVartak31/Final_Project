@@ -1,0 +1,10 @@
+12:33:25 **** Build of configuration Debug for project dma_application_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 50686 C:/Users/Student/Desktop/ECE520/DMA3/dma_platform/export/dma_platform/dma_platform.xpfm standalone_domain C:/Users/Student/Desktop/ECE520/DMA3/dma_application_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/Student/Desktop/ECE520/DMA3/dma_platform/export/dma_platform/dma_platform.xpfm --sys_config dma_platform --bif C:/Users/Student/Desktop/ECE520/DMA3/dma_application_system/Debug/system.bif --bitstream C:/Users/Student/Desktop/ECE520/DMA3/dma_application/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/Student/Desktop/ECE520/DMA3/dma_application/Debug/dma_application.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/Student/Desktop/ECE520/DMA3/dma_application/_ide/bitstream/design_1_wrapper.bit
+Running E:/Vitis/2021.2/bin/bootgen  -image C:/Users/Student/Desktop/ECE520/DMA3/dma_application_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+12:33:43 Build Finished (took 17s.872ms)
+
